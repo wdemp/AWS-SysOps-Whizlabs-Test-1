@@ -26,3 +26,4 @@ Reason its Wrong: The question makes no mention of needing any routing policy, a
 
 Real Answer: 2 resources based on the Weighted Policy
 The Reason: "Weighted routing lets you associate multiple resources with a single domain name (example.com) or subdomain name (acme.example.com) and choose how much traffic is routed to each resource. This can be useful for a variety of purposes, including load balancing and testing new versions of software."
+Analysis: Upong looking back at the question and the answer
