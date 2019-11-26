@@ -8,3 +8,4 @@ connection can be initiated from the Internet on to the Instance.
 Which of the following would you add to the VPC for this requirement?
 
 A: An egress only internet gateway: 
+Wrong Answer: 
