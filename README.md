@@ -9,4 +9,4 @@ Which of the following would you add to the VPC for this requirement?
 
 A: An egress only internet gateway: 
 Wrong Answer: Attach a NAT Gateway
-Reason it's Wrong: 
+Reason it's Wrong: The reason my answer was wrong was because an egress only gateway is used for IPV6, while a NAT Gateway would be used more for instances in a private subnet wnen used to communicate with the internet(whizlabs)
