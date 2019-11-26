@@ -15,4 +15,6 @@ since in this scenario you want to make sure that no other traffic is coming in.
 
 Q2: Your company currently has a VPC with EC2 Instances. A new instance being launched which will host an application that works on IPv6. Which of the following pre-requisite needs to be followed to ensure that the new Instance can communicate over IPv6?
 My Answer: Attach an Egress -only Internet Gateway
-Real Answer:
+Real Answer: Ensure your VPC works in Dual Stack Mode
+My Reasoning: I didn't really understand the question that well and still have a lot of problems with some of the terminology.
+Whizlabs Answer: According to the answer from Whizlabs: If you have an existing VPC that supports IPv4 only, and resources in your subnet that are configured to use IPv4 only, you can enable IPv6 support for your VPC and resources. Your VPC can operate in dual-stack mode — your resources can communicate over IPv4, or IPv6, or both. IPv4 and IPv6 communication are independent of each other.
