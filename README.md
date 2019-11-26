@@ -13,4 +13,6 @@ Reason why "Egress only Internet Gateway" is correct: An Egrees only Inernet Gat
 since in this scenario you want to make sure that no other traffic is coming in. An engrees only Internet Gateway can ensure that your instance communicates with the proper traffic you want it to. 
 
 
-Q2: 
+Q2: Your company currently has a VPC with EC2 Instances. A new instance being launched which will host an application that works on IPv6. Which of the following pre-requisite needs to be followed to ensure that the new Instance can communicate over IPv6?
+My Answer: Attach an Egress -only Internet Gateway
+Real Answer:
