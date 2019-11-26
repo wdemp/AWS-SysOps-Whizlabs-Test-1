@@ -18,3 +18,7 @@ My Answer: Attach an Egress -only Internet Gateway
 Real Answer: Ensure your VPC works in Dual Stack Mode
 My Reasoning: I didn't really understand the question that well and still have a lot of problems with some of the terminology.
 Whizlabs Answer: According to the answer from Whizlabs: "If you have an existing VPC that supports IPv4 only, and resources in your subnet that are configured to use IPv4 only, you can enable IPv6 support for your VPC and resources. Your VPC can operate in dual-stack mode — your resources can communicate over IPv4, or IPv6, or both. IPv4 and IPv6 communication are independent of each other." The reason all the other questions were wrong was because the question has no mention of the instances needing to connect to the internet.
+
+Q3: Your development team has currently made changes to an application which is hosted in AWS. Currently the application is in Production and Route 53 is being used as the DNS service. The new version of the application has undergone testing and now needs to be promoted to a separate environment. They need an initial set of traffic to be directed to the new version of the application for testing, before the final cutover can be made. Which of the following would you implement?
+
+My Answer: 2 resource records based 
