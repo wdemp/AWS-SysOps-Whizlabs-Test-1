@@ -9,4 +9,4 @@ Reason: Was mostly guessing. I still don't fully understand all the network base
 Whizlabs and AWS docs answers: The Egress only internet gateway is used specifically for the IPV6. According to AWS docs "
 IPv6 addresses are globally unique and are therefore public by default. If you want your instance to be able to access the Internet, but you want 
 to prevent resources on the Internet from initiating communication with your instance, you can use 
-n egress-only Internet gateway."
+an egress-only Internet gateway."
