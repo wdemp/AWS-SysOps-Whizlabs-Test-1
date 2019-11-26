@@ -27,3 +27,8 @@ Reason its Wrong: The question makes no mention of needing any routing policy, a
 Real Answer: 2 resources based on the Weighted Policy
 The Reason: "Weighted routing lets you associate multiple resources with a single domain name (example.com) or subdomain name (acme.example.com) and choose how much traffic is routed to each resource. This can be useful for a variety of purposes, including load balancing and testing new versions of software."
 Analysis: Upon looking back at the question and the answer this is making more sense. The question mentions " a seperate environment" being needed. This makes me think back to what weighted policy means. For the most part is has to deal with when to emphasis something more in the policy; be it a routing poicy or whatever is needed in the scenario.
+
+Q4: A company is planning for hosting a 3-tier application onto AWS. The presentation layer is hosted on a set of web servers and are placed in a public subnet. Application layer hosted on 2 EC2 instances, and Oracle database servers, hosted on EC2 instances are placed in a private subnet. You need to ensure that all traffic has been evenly distributed. Also, you need to ensure that database servers are not accessible on the Internet.
+Which of the following 2 configurations you will propose to implement?
+
+
