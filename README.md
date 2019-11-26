@@ -21,4 +21,8 @@ Whizlabs Answer: According to the answer from Whizlabs: "If you have an existing
 
 Q3: Your development team has currently made changes to an application which is hosted in AWS. Currently the application is in Production and Route 53 is being used as the DNS service. The new version of the application has undergone testing and now needs to be promoted to a separate environment. They need an initial set of traffic to be directed to the new version of the application for testing, before the final cutover can be made. Which of the following would you implement?
 
-My Answer: 2 resource records based 
+My Answer: 2 resource records based on the Simple Routing Policy
+Reason its Wrong: The question makes no mention of needing any routing policy, although it might slightly hint at it. I'm still not very good at this section.
+
+Real Answer: 2 resources based on the Weighted Policy
+The Reason:
