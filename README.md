@@ -113,3 +113,5 @@ Q17: A large multinational firm is using 3-tier application installed on EC2 ins
 My Answer: Request users from member account to modify Threat list to include this IP address.
 Real Answer: Request users from master account to modify Threat list to include this IP address.
 Analysis: I need to go over more GuardDuty. 
+
+Q18: A start-up firm has configured Amazon GuardDuty for both master & member account to monitor EC2 instance. Amazon GuardDuty findings are sent to AWS CloudWatch Events which in turn sends an email notification to IT Team lead. Some EC2 instances are launched in member account for testing purposes with SSH port open. A repetitive finding for this instance is being generated which is turn generating frequent AWS CloudWatch events. Operations Team needs you to prevent these findings to initialize AWS CloudWatch events repeatedly & sending mails for a known issue. Which of the following actions will meet this requirement?
