@@ -58,3 +58,43 @@ My Answer: Grant write permissions Log Delivery group on S3 Bucket "targetexampl
 Real Answer: Grant write permissions Log Delivery group on S3 Bucket "taerget example" using bucket ACL
 Whizlabs answer: Amazon S3 uploads access log files to target bucket using a special account, as Log Delivery group. This account should have write access on target bucket to save all logs. To grant access, bucket ACL is used  & not by bucket policy.
 
+Q14:  he following policy has been set on a bucket
+
+{
+
+  "Version": "2012-10-17",
+
+  "Id": "demopolicy",
+
+  "Statement": [
+
+    {
+
+      "Sid": "IPAllow",
+
+      "Effect": "Allow",
+
+      "Principal": "*",
+
+      "Action": "s3:*",
+
+      "Resource": "arn:aws:s3:::demobucket/*",
+
+      "Condition": {
+
+         "IpAddress": {"aws:SourceIp": "54.240.143.0/24"},
+
+         "NotIpAddress": {"aws:SourceIp": "54.240.143.188/32"}
+
+      }
+
+    }
+
+  ]
+
+}
+
+What does this policy do?
+
+My Answer: Ensure that clients in the range of 54.240.143.0/24 are denied access to all objects in the demobucket
+Real Answer: Ensure that the clients with the IP address of 54.240.143.188 is denied access to the objects in the demobucket
