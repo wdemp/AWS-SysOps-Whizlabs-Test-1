@@ -39,4 +39,4 @@ Q8: You’re planning on allowing an Administrator to setup an EC2 Instance. Thi
 
 My Answer: I put down the 2 answers that were completely wrong. This was due to not fully understanding the question and some of the terminology.
 Real Answers: "A trust policy that allows the EC2 Instance to assume a role" and  "An IAM policy that allows the user to pass on a role." 
-Analysis: The mention of IAM roles makes it more obvious that this was half of the answer. You cannot really do much of anything on AWS without having the proper persmissions established for the servce prior. Having 
+Analysis: The mention of IAM roles makes it more obvious that this was half of the answer. You cannot really do much of anything on AWS without having the proper persmissions established for the servce prior. Having permission granted prior by the admin will ensure the user can perform his or her duties 
