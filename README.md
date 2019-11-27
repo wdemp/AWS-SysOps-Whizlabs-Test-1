@@ -105,4 +105,8 @@ Q15: You are working as a SysOps administrator for a large IT firm. After succes
 Answers I chose: I got 3 out of the 4 correct.
 Real Answers: Download and install SSM Agent on servers in Data Centre, Create an IAM Role to communicate with the Systems Manager service, Install a TLS certificate on servers in Data Centre, Create a managed instance activation for servers in Data Centres.
 Q16: You are working as a SysOps Administrator for a large construction company. Last week there was an outage in few critical Production servers as third-party unauthorised software was installed on these servers.  As a SysOps Administrator, you have been asked to maintain a predefined state for all Instance in US-West-1 region. Which of the following can be used to perform this task?
-My answer: 
+My answer: Use state manager with Policy Document
+Real Answer: Use State Manager with Command Document 
+Analysis: I don't understand these terms yet.
+
+Q17: A large multinational firm is using 3-tier application installed on EC2 instance in VPC. They are using Amazon GuardDuty for monitoring malicious activities & traffic patterns hitting web application. Initially they were using Amazon GuardDuty for master account in us-west-1 region which now has been expanded to other member accounts in the same region. One of the member account is observing a huge amount of traffic from an IP address accessing web application. Security lead for this member account is looking for detail activities from this IP address. Which of the following actions will meet this requirement ?
