@@ -54,3 +54,6 @@ Real Answer: Use AWS Organizations and Service Control Policies
 Reason it's Wrong: I know enough to realize this was due to not reading throughly enough and not paying attention. There is no other necessary sections to type out beyond this.
 
 Q12:A financial firm is using Amazon S3 bucket to save all critical documents. Security Team requires a detailed logs for all users who would be accessing these buckets & actions performed by these users. As a SysOps administrator, you are planning to enable Amazon S3 Server Access Logs for all these buckets. Which of the following permission will require for logs to be delivered in target bucket “targetexample” ?
+My Answer: Grant write permissions Log Delivery group on S3 Bucket "targetexample" using bucket policy"
+Real Answer: Grant write permissions Log Delivery group on S3 Bucket
+
