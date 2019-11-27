@@ -31,5 +31,5 @@ Analysis: Upon looking back at the question and the answer this is making more s
 Q4: A company is planning for hosting a 3-tier application onto AWS. The presentation layer is hosted on a set of web servers and are placed in a public subnet. Application layer hosted on 2 EC2 instances, and Oracle database servers, hosted on EC2 instances are placed in a private subnet. You need to ensure that all traffic has been evenly distributed. Also, you need to ensure that database servers are not accessible on the Internet.
 Which of the following 2 configurations you will propose to implement?
 
-Answer I put: It turns out that I got half of this question correct since it involved selecting 2 answers. However wrong is wrong on a practice test. The second half of the question was wrong because "incorrect since it is mentioned that database servers should not be accessible to the Internet, so these need to be internal load balancers" (whizlabs)
+Answer I put: It turns out that I got half of this question correct since it involved selecting 2 answers. However wrong is wrong on a practice test. The second half of the question was wrong because "incorrect since it is mentioned that database servers should not be accessible to the Internet, so these need to be internal load balancers" (whizlabs answer)
 
