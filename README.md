@@ -103,4 +103,6 @@ Real Answer: Ensure that the clients with the IP address of 54.240.143.188 is de
 Q15: You are working as a SysOps administrator for a large IT firm. After successful set-up of Systems Manager on EC2 instance across all regions, you are planning to set-up Systems Manager for 50  database servers deployed in corporate Data Centre. Which of the following actions are mandatory to complete Systems Manager set-up on these servers? (Select Four.)
 
 Answers I chose: I got 3 out of the 4 correct.
-Real Answers: Download and install SSM Agent on servers in Data Centre, Create an IAM Role to communicate with the Systems Manager service, Install a TLS certificate on servers in Data Centre, Create a managed 
+Real Answers: Download and install SSM Agent on servers in Data Centre, Create an IAM Role to communicate with the Systems Manager service, Install a TLS certificate on servers in Data Centre, Create a managed instance activation for servers in Data Centres.
+Q16: You are working as a SysOps Administrator for a large construction company. Last week there was an outage in few critical Production servers as third-party unauthorised software was installed on these servers.  As a SysOps Administrator, you have been asked to maintain a predefined state for all Instance in US-West-1 region. Which of the following can be used to perform this task?
+My answer: 
