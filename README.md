@@ -51,4 +51,6 @@ Whizlabs answer: "A Vault lock policy can be used to lock vault for any future c
 Q11: Your company is planning on setting up multiple accounts in AWS. The IT Security department has a requirement to ensure that certain services and actions are not allowed across all accounts. How would you achieve this in the most EFFECTIVE way possible?
 My Answer: Apply and IAM policy per account and apply them accordingly.
 Real Answer: Use AWS Organizations and Service Control Policies 
-Reason it's Wrong: I know enough to realize this was due to not reading throughly enough and not paying attention. There is no other necessary sections to type out beyond this
+Reason it's Wrong: I know enough to realize this was due to not reading throughly enough and not paying attention. There is no other necessary sections to type out beyond this.
+
+Q12:A financial firm is using Amazon S3 bucket to save all critical documents. Security Team requires a detailed logs for all users who would be accessing these buckets & actions performed by these users. As a SysOps administrator, you are planning to enable Amazon S3 Server Access Logs for all these buckets. Which of the following permission will require for logs to be delivered in target bucket “targetexample” ?
