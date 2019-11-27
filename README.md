@@ -44,4 +44,11 @@ Analysis: The mention of IAM roles makes it more obvious that this was half of t
 Q9: You are working as a SysOps administrator for a legal organisation. All contractual documents need to be archived for 5 years without modifications. You are planning to store these documents in Amazon S3 Glacier with Vault lock.  Initiate Vault Lock is initiated to add controls which will deny any user to make changes in these documents. Which of the following additional actions need to be initiated to complete Amazon S3 Glacier Vault lock policy?
 
 My Answer: "Initiate Complete Vault Lock Operation within 12 hours using Lock ID generated during initiative Vault Lock" I did not understand this question at all or most of the terms in it.
-Real Answer: 
+Real Answer: Initiate Complete Vault Lock operation within 24 hours using Lock ID generated during Initiate Lock Vault
+
+Whizlabs answer: "A Vault lock policy can be used to lock vault for any future changes. Attaching a Vault lock policy is a 2-step process. First an Initiate Vault Lock is called which will attach a vault lock policy to the vault & returns a unique lock ID. Post verification , a Complete Vault Lock needs to  be initiated within 24 hours using lock ID generated from Initiate Vault Lock. If a Complete Vault is not initiated within 24 hours , vault lock policy is removed."
+
+Q11: Your company is planning on setting up multiple accounts in AWS. The IT Security department has a requirement to ensure that certain services and actions are not allowed across all accounts. How would you achieve this in the most EFFECTIVE way possible?
+My Answer: Apply and IAM policy per account and apply them accordingly.
+Real Answer: Use AWS Organizations and Service Control Policies 
+Reason it's Wrong: I know enough to realize this was due to not reading throughly enough and not paying attention. There is no other necessary sections to type out beyond this
