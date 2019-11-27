@@ -39,4 +39,8 @@ Q8: You’re planning on allowing an Administrator to setup an EC2 Instance. Thi
 
 My Answer: I put down the 2 answers that were completely wrong. This was due to not fully understanding the question and some of the terminology.
 Real Answers: "A trust policy that allows the EC2 Instance to assume a role" and  "An IAM policy that allows the user to pass on a role." 
-Analysis: The mention of IAM roles makes it more obvious that this was half of the answer. You cannot really do much of anything on AWS without having the proper persmissions established for the servce prior. Having permission granted prior by the admin will ensure the user can perform his or her duties without them being hindered. 
+Analysis: The mention of IAM roles makes it more obvious that this was half of the answer. You cannot really do much of anything on AWS without having the proper persmissions established for the servce prior. Having permission granted prior by the admin will ensure the user can perform his or her duties without them being hindered. A Trust policy must also be used in this scenario because the policy will allow the service to use the role and permissions assigned to it.
+
+Q9: You are working as a SysOps administrator for a legal organisation. All contractual documents need to be archived for 5 years without modifications. You are planning to store these documents in Amazon S3 Glacier with Vault lock.  Initiate Vault Lock is initiated to add controls which will deny any user to make changes in these documents. Which of the following additional actions need to be initiated to complete Amazon S3 Glacier Vault lock policy?
+
+My Answer: "Initiate Complete Vault Lock Operation within 12 hours using Lock ID generated during initiative Vault Lock" I did not understand this question at all or most of the terms in it.
