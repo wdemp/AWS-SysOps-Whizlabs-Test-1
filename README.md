@@ -98,3 +98,9 @@ What does this policy do?
 
 My Answer: Ensure that clients in the range of 54.240.143.0/24 are denied access to all objects in the demobucket
 Real Answer: Ensure that the clients with the IP address of 54.240.143.188 is denied access to the objects in the demobucket
+
+
+Q15: You are working as a SysOps administrator for a large IT firm. After successful set-up of Systems Manager on EC2 instance across all regions, you are planning to set-up Systems Manager for 50  database servers deployed in corporate Data Centre. Which of the following actions are mandatory to complete Systems Manager set-up on these servers? (Select Four.)
+
+Answers I chose: I got 3 out of the 4 correct.
+Real Answers: Download and install SSM Agent on servers in Data Centre, Create an IAM Role to communicate with the Systems Manager service, Install a TLS certificate on servers in Data Centre, Create a managed 
