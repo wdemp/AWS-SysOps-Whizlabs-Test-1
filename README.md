@@ -112,4 +112,4 @@ Analysis: I don't understand these terms yet.
 Q17: A large multinational firm is using 3-tier application installed on EC2 instance in VPC. They are using Amazon GuardDuty for monitoring malicious activities & traffic patterns hitting web application. Initially they were using Amazon GuardDuty for master account in us-west-1 region which now has been expanded to other member accounts in the same region. One of the member account is observing a huge amount of traffic from an IP address accessing web application. Security lead for this member account is looking for detail activities from this IP address. Which of the following actions will meet this requirement ?
 My Answer: Request users from member account to modify Threat list to include this IP address.
 Real Answer: Request users from master account to modify Threat list to include this IP address.
-Analysis: I need to go over more Guard Duty
+Analysis: I need to go over more GuardDuty. 
