@@ -38,4 +38,4 @@ Correct Answers: "create an internal load balaner for the database layer" and  "
 Q8: You’re planning on allowing an Administrator to setup an EC2 Instance. This EC2 Instance will host an application that would need access to a DynamoDB table. Which of the following policy permissions are required to ensure that from a security perspective this implementation can be carried out? Choose 2 answers from the options given below.
 
 My Answer: I put down the 2 answers that were completely wrong. This was due to not fully understanding the question and some of the terminology.
-Real Answers: 
+Real Answers: "A trust policy that allows the EC2 Instance to assume a role" and 
