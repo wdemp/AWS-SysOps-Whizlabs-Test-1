@@ -33,3 +33,4 @@ Which of the following 2 configurations you will propose to implement?
 
 Answer I put: It turns out that I got half of this question correct since it involved selecting 2 answers. However wrong is wrong on a practice test. The second half of the question was wrong because "incorrect since it is mentioned that database servers should not be accessible to the Internet, so these need to be internal load balancers" (whizlabs answer) The other correct answer was "create an internal load balancer for the database layer"
 
+Correct Answers: "create an internal load balaner for the database layer" and  "create an internal load balancer for the web server" 
