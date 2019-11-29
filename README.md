@@ -118,3 +118,5 @@ Q18: A start-up firm has configured Amazon GuardDuty for both master & member ac
 My Answer: Create a fitler for specific attribute generating this finding and create a script to delete the rule once an AWS Cloudwatch event is generated.
 Real Answer: Create a filter specific attribute generating this finding and archive the rule.
 Analysis: Didn't understand the question at all. 
+
+Q19:You are using AWS CodeDeploy to update application with new password in a production environment. Security Team is concerned on storage of new password while using automated process of updating application on large number of instances. Which of the following can be used to securely update application password with least efforts and ensuring no service outage ?
