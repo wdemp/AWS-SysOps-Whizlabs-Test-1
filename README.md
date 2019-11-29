@@ -120,3 +120,4 @@ Real Answer: Create a filter specific attribute generating this finding and arch
 Analysis: Didn't understand the question at all. 
 
 Q19:You are using AWS CodeDeploy to update application with new password in a production environment. Security Team is concerned on storage of new password while using automated process of updating application on large number of instances. Which of the following can be used to securely update application password with least efforts and ensuring no service outage ?
+My Answer: 
